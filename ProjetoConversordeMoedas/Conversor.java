@@ -4,23 +4,24 @@ public class Conversor
 {
 	double valorConvertido;
 	double valor;
+	String simbolo;
 	
 	public Conversor(double valor)
 	{
 		this.valor = valor;
 	}
 	
-		public void conversaoDiv (double valor, double cotacao)
+		public void conversaoDiv (double valor, double cotacao, String simbolo)
 		{
 			valorConvertido=this.valor/cotacao;
-			System.out.printf("\nValor da moeda convertida: %.2f",valorConvertido);
+			System.out.printf("\nValor da moeda convertida: %.2f %s",valorConvertido, simbolo);
 			
 		}
 		
-		public void conversaoMult (double valor, double cotacao)
+		public void conversaoMult (double valor, double cotacao, String simbolo)
 		{
 			valorConvertido=this.valor*cotacao;
-			System.out.printf("\nValor da moeda convertida: %.2f",valorConvertido);
+			System.out.printf("\nValor da moeda convertida: %.2f %s",valorConvertido, simbolo);
 			
 		}
 		
