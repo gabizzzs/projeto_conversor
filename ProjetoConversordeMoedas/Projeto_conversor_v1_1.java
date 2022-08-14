@@ -2,7 +2,7 @@ package ProjetoConversordeMoedas;
 
 import java.util.Scanner;
 
-public class projeto_conversor_v1_0
+public class Projeto_conversor_v1_1
 {
 
 	public static void main(String[] args)
